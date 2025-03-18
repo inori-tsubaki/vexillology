@@ -43,6 +43,24 @@ a.text-secondary:hover {
     color: white !important;
 }
 
+.btn-tsubaki-outline {
+    border-style: solid !important;
+    border-width: 0.05rem !important;
+    border-radius: var(--bs-border-radius) !important;
+    border-color: var(--color-tsubaki) !important;
+    color: var(--color-tsubaki);
+}
+.btn-tsubaki-outline:hover {
+    transition: none;
+    border: none;
+    background-color: var(--color-tsubaki) !important;
+    color: white;
+}
+.btn-tsubaki-outline:active {
+    transition: none;
+    color: black;
+}
+
 /* T-CYAN */
 .text-tcyan {
     color: var(--color-tcyan) !important;
