@@ -1,0 +1,10 @@
+.hover-zoom:hover {
+    transform: scale(1.1) !important;
+    transition-duration: 0.3s !important;
+}
+.shadow-lg {
+    box-shadow: 10px 10px 5px 0px #e3e3e3;
+}
+.drop-shadow {
+    filter: drop-shadow(10px 10px 10px #e3e3e3);
+}

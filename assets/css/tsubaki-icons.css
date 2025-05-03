@@ -1,0 +1,32 @@
+:root {
+    --taiwan-svg: url('../icons/taiwan.svg');
+    --takao-svg: url('../icons/takao.svg');
+    --taichuu-svg: url('../icons/taichuu.svg');
+}
+
+.tbk::before {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: -.125em;
+    content: "";
+    background-color: currentColor;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+/* Monshou */
+.tbk.tbk-taiwan::before {
+    -webkit-mask: var(--taiwan-svg) no-repeat center;
+    mask: var(--taiwan-svg) no-repeat center;
+}
+
+.tbk.tbk-takao::before {
+    -webkit-mask: var(--takao-svg) no-repeat center;
+    mask: var(--takao-svg) no-repeat center;
+}
+
+.tbk.tbk-taichuu::before {
+    -webkit-mask: var(--taichuu-svg) no-repeat center;
+    mask: var(--taichuu-svg) no-repeat center;
+}
